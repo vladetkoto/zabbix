@@ -13,5 +13,5 @@ sudo add-apt-repository \
    $(lsb_release -cs) \
    stable"
 apt-get update && \apt-get -y install docker-ce docker-compose
-
+sudo chmod +x /usr/local/bin/docker-compose
 apt-get clean
