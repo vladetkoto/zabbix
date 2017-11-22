@@ -51,7 +51,7 @@ RUN locale-gen $LC_ALL && \
             bc \
             fping \
             libopenipmi0 1>/dev/null && \
-    update-ca-certificates && \
+#    update-ca-certificates && \
     apt-get ${APT_FLAGS_COMMON} autoremove && \
     apt-get ${APT_FLAGS_COMMON} clean && \
     rm -rf /var/lib/apt/lists/*
