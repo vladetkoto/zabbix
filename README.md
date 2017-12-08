@@ -16,4 +16,6 @@ You can copy it to your /bin/ folder and insert the following line crontab:
 
 it will initiate dump in 1AM every day and save it in /mnt folder
 
+executing purge.sh will sto and remove any containers, images and network created by docker, but it will not remove your database. You can run docker-compose up -d to download and start the system again with no dataloss.
+
 Enjoy!
