@@ -4,7 +4,9 @@ Zabbix on docker with added ssl scripts.
 
 Run sh install.sh inside zabbix directory.
 Waith for the process to finish.
-Open your browser and type ip address of the server.
+
+Check your IP and open it in your browser.
+
 Use Admin for Username and zabbix for password.
 
 zabbix_backup.sh will create a DB backup.
