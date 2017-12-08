@@ -18,4 +18,6 @@ it will initiate dump in 1AM every day and save it in /mnt folder
 
 executing purge.sh will stop and remove any containers, images and network created by docker, but it will not remove your database. You can run docker-compose up -d to download and start the system again with no dataloss.
 
+Use docker exec zabbix32conatainer_mysql-server_1 mysql -u root -p < /path_to_your_sql/dump.sql in case you are migrating your existing zabbix to this docker based version.
+
 Enjoy!
