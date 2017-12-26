@@ -15,4 +15,4 @@ sudo add-apt-repository \
 sudo apt-get update && \apt-get -y install docker-ce 
 sudo chmod +x /usr/local/bin/docker-compose
 sudo apt-get clean
-docker-compose up -d
+sudo docker-compose up -d
