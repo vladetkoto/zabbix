@@ -1,6 +1,6 @@
 #!/bin/bash
 # DB backup script vladetkoto@gmail.com
-
+#
 # Database credentials
 user="root"
 password="123qweASD"
